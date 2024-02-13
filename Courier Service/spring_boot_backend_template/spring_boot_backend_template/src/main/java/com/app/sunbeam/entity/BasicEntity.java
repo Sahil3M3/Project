@@ -1,5 +1,21 @@
 package com.app.sunbeam.entity;
 
-public class BasicEntity {
+import javax.persistence.*;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+
+@Setter
+@Getter
+@RequiredArgsConstructor
+@MappedSuperclass
+public class BasicEntity {
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id; 
+
+   
 }
