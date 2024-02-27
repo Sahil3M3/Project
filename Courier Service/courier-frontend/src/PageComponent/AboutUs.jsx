@@ -3,7 +3,7 @@ const AboutUs = () => {
     <div className="text-color ms-5 me-5 mr-5 mt-3">
       <h4 className="mb-3 text-color-second">About Us</h4>
       <b>
-        At Courier Management System, our mission is to revolutionize the way
+        At STS Courier Services, our mission is to revolutionize the way
         logistics and courier services operate. We believe in harnessing the
         power of technology to simplify and enhance the entire courier
         management process.
@@ -16,7 +16,7 @@ const AboutUs = () => {
         that sets new standards in the industry.
         <br />
         <br />
-        Driven by innovation and a passion for efficiency, Courier Management
+        Driven by innovation and a passion for efficiency, STS Management
         System is not just a platform; it's a commitment to transforming the
         logistics landscape. Join us as we continue to pave the way for a future
         where courier management is not only effective but also effortlessly

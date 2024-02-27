@@ -16,7 +16,7 @@ const Header = () => {
           />
           <Link to="/" class="navbar-brand">
             <i>
-              <b className="text-color-second">Courier Management System</b>
+              <b className="text-color-second"> STS Courier Services</b>
             </i>
           </Link>
 

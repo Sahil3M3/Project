@@ -1,12 +1,12 @@
 import Carousel from "./Carousel";
 import Footer from "../NavbarComponent/Footer";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import courier1 from "../images/courier1.png";
 import courier2 from "../images/courier2.png";
 
 const HomePage = () => {
-  const navigate = useNavigate();
+ // const navigate = useNavigate();
 
   return (
     <div className="container-fluid mb-2">
@@ -15,16 +15,16 @@ const HomePage = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-8 text-color">
-            <h1>Welcome to Courier Management System</h1>
+            <h1>Welcome to STS Courier Services</h1>
             <p>
-              Welcome to Courier Management System, where precision meets
+              Welcome to STS Courier Services, where precision meets
               passion in the world of courier management. Whether you're a
               customer expecting a package, an administrator overseeing
-              operations, or a delivery person on the move - our Courier
-              Management System is designed to elevate your experience.
+              operations, or a delivery person on the move - our STS
+              Courier Services is designed to elevate your experience.
             </p>
             <p>
-              At Courier Management System, we understand the importance of
+              At STS Courier Services, we understand the importance of
               reliability, security, and efficiency in every step of the
               delivery process. Our commitment to excellence is not just a
               promise but a philosophy that guides us. With state-of-the-art
@@ -65,7 +65,7 @@ const HomePage = () => {
               delivery.
             </p>
             <p className="ms-5">
-              With a user-friendly interface and robust features, Courier
+              With a user-friendly interface and robust features, STS
               Management offers a seamless experience. Whether you're a customer
               tracking a parcel or an administrator optimizing routes, our
               platform provides the tools you need for effortless logistics.

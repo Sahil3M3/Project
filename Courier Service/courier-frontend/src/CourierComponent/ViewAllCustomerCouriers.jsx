@@ -54,12 +54,7 @@ const ViewAllCustomerCouriers = () => {
   const retrieveAllCouriers = async () => {
     const response = await axios.get(
       "http://localhost:8080/api/courier/fetch/all"
-      //   ,
-      // {
-      //   headers: {
-      //     Authorization: "Bearer " + employer_jwtToken, // Replace with your actual JWT token
-      //   },
-      // }
+    
     );
 
     return response.data;
